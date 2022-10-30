@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart'
-    show BuildContext, Key, MaterialApp, StatelessWidget, Widget, runApp;
+import 'package:flutter/material.dart';
 import 'package:flutter_quiz_pro/quiz.dart';
 import 'homepage.dart';
 import 'resultados.dart';
