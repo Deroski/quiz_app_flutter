@@ -59,7 +59,7 @@ class Resultado extends StatelessWidget {
                             fontSize: 30,
                             color: Color.fromARGB(255, 255, 156, 8))),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.black,
+                      backgroundColor: Colors.black,
                       padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
                     ),
                   ),

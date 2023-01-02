@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
                             fontSize: 50,
                             color: Color.fromARGB(255, 255, 156, 8))),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.black,
+                      backgroundColor: Colors.black,
                       padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
                     ),
                   ),

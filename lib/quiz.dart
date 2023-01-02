@@ -119,7 +119,7 @@ class _QuizState extends State<Quiz> {
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ))),
-                Text('Pergunta:' + quiz[perguntaNumero - 1]['pergunta'],
+                Text('Pergunta:' + quiz[perguntaNumero + 0]['pergunta'],
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
@@ -135,7 +135,7 @@ class _QuizState extends State<Quiz> {
                             fontSize: 20,
                             color: Color.fromARGB(255, 255, 156, 8))),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.black,
+                      backgroundColor: Colors.black,
                       padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
                     ),
                   ),
@@ -151,7 +151,7 @@ class _QuizState extends State<Quiz> {
                             fontSize: 20,
                             color: Color.fromARGB(255, 255, 156, 8))),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.black,
+                      backgroundColor: Colors.black,
                       padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
                     ),
                   ),
@@ -162,12 +162,12 @@ class _QuizState extends State<Quiz> {
                     onPressed: () {
                       print('pressionado 3');
                     },
-                    child: Text(quiz[perguntaNumero - 1]['respostas'][2],
+                    child: Text(quiz[perguntaNumero - 2]['respostas'][2],
                         style: TextStyle(
                             fontSize: 20,
                             color: Color.fromARGB(255, 255, 156, 8))),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.black,
+                      backgroundColor: Colors.black,
                       padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
                     ),
                   ),
@@ -178,12 +178,12 @@ class _QuizState extends State<Quiz> {
                     onPressed: () {
                       print('pressionado 4');
                     },
-                    child: Text(quiz[perguntaNumero - 1]['respostas'][3],
+                    child: Text(quiz[perguntaNumero - 3]['respostas'][3],
                         style: TextStyle(
                             fontSize: 20,
                             color: Color.fromARGB(255, 255, 156, 8))),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.black,
+                      backgroundColor: Colors.black,
                       padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
                     ),
                   ),
